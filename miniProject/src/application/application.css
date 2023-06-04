@@ -1,0 +1,72 @@
+#welcome-text {
+    -fx-font-size: 24px;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-fill: #333333; /* Couleur du texte */
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-text-fill: #333333; /* Couleur du texte des labels */
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-pref-width: 200px;
+}
+
+.button {
+    -fx-background-color: #00abf0; /* Couleur de fond du bouton */
+    -fx-text-fill: white; /* Couleur du texte du bouton */
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-pref-width: 100px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1); /* Effet de survol */
+}
+
+#actiontarget {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-fill: #FF0000; /* Couleur du texte de l'actiontarget */
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+
+/* Fichier style.css */
+
+/* Styles spécifiques pour la scène scene2 */
+#scene2 {
+    -fx-background-color: #f0f0f0;
+}
+
+#scene2 .title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+#scene2 .label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+}
+
+#scene2 .button {
+    -fx-background-color: #ff9900;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#scene2 .button:hover {
+    -fx-background-color: #e68000;
+}
+
+#scene2 .button:pressed {
+    -fx-background-color: #cc6600;
+}
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
